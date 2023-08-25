@@ -27,6 +27,8 @@ int main(){
         printf("resultado: %d\n", valor1 / valor2);
     }else if (operacao == '%'){
         printf("resultado: %d\n", valor1 % valor2);
+    } else{
+        printf("OPERACAO INVALIDA!!! \n");
     }
 
     printf("operacao %c\n", operacao);
@@ -35,10 +37,8 @@ int main(){
 }
 
 
-
 // "+" -> string
 // '+' -> char
-
 
 
     // Soma: resultado = valor1 + valor2;

@@ -18,18 +18,17 @@ int main(){
     scanf("%d", &valor2);
 
     if(operacao == '+'){
-        printf("resultado: %d\n", valor1 + valor2;)
+        printf("resultado: %d\n", valor1 + valor2);
     } else if (operacao == '-'){
-        printf("resultado: %d\n", valor1 - valor2;)
+        printf("resultado: %d\n", valor1 - valor2);
     } else if (operacao == '*'){
-        printf("resultado: %d\n", valor1 * valor2;)
+        printf("resultado: %d\n", valor1 * valor2);
     } else if (operacao == '/'){
-        printf("resultado: %d\n", valor1 / valor2;)
+        printf("resultado: %d\n", valor1 / valor2);
     }else if (operacao == '%'){
-        printf("resultado: %d\n", valor1 % valor2;)
+        printf("resultado: %d\n", valor1 % valor2);
     }
 
-    printf("Resultado %d\n", resultado);
     printf("operacao %c\n", operacao);
 
     return 0;

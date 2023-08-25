@@ -27,15 +27,13 @@ int main(){
         printf("resultado: %d\n", valor1 / valor2);
     }else if (operacao == '%'){
         printf("resultado: %d\n", valor1 % valor2);
-    } else if(operacao == 'c'){
-      if(valor1 > valor2){
+    } else if(operacao == 'c' && valor1 > valor2){
         printf("%d e maior que %d\n", valor1, valor2);
-      }if(valor1 < valor2){    
+    } else if(operacao == 'c' && valor1 < valor2){
         printf("%d e menor que %d\n", valor1, valor2);
-      }if(valor1 == valor2){      
-        printf("%d e igual que %d\n", valor1, valor2);
-      }  
-    } else{
+    } else if(operacao == 'c' && valor1 == valor2){
+        printf("%d e igual a %d\n", valor1, valor2);
+      } else{
         printf("OPERACAO INVALIDA!!! \n");
     }
 
